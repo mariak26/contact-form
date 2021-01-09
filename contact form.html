@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>contact form</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" type="image/png" href="favicon.ico">
+</head>
+<body>
+<div class="form">
+	<form>
+		<label for="fname">Ονοματεπώνυμο:</label>
+		<br>
+		<input type="text" id="fname" name="fullname" placeholder="Το Όνομα σας">
+		<br>
+		<label for="email">Διεύθυνση email:</label>
+		<br>
+		<input type="email" id="email" name="email" placeholder="onoma@paradigma.com">
+		<br>
+		<label for="pword">Κωδικός:</label>
+		<br>
+		<input type="password" id="pword" name="password" placeholder="Κωδικός πρόσβασης">
+		<br>
+		<label for="birthday">Ημερομηνία γέννησης:</label>
+		<br>
+		<input type="date" id="birthday" name="dob">
+		<br>
+		<label for="gradyr">Έτος αποφοίτησης:</label>
+		<br>
+		<input type="range" id="gradyr" name="gradyr" min="1950" max="2020">
+		<br>
+		<label for="filo">Φύλλο:</label>
+		<br>
+		<input type="radio" id="filo" name="genderoption" value="male">Άρρεν
+		<input type="radio" id="filo" name="genderoption" value="female">Θήλυ
+		<input type="radio" id="filo" name="genderoption" value="undisclosed" checked>Δεν δηλώνω
+		<br>
+		<label for="perioxi">Ήπειρος:</label>
+		<br>
+		<input type="checkbox" name="race" value="america">Αμερική
+		<input type="checkbox" name="race" value="asia">Ασία
+		<input type="checkbox" name="race" value="europe">Ευρώπη
+		<input type="checkbox" name="race" value="africa">Αφρική
+		<input type="checkbox" name="race" value="oceania">Ωκεανία
+		<br>
+		<label for="fcolor">Αγαπημένο χρώμα: </label><input type="color" name="favcolor" id="fcolor">
+		<br>
+		<label for="file">Επισύναψη αρχείου: </label><input type="file" name="resum" id="file">
+		<br>
+		<br>
+		<input type="submit" id="submit" value="Αποστολή"> <input type="reset" name= "reset" id="reset" value= "Επαναφορά">
+	</form>
+</div>
+</body>
+</html>
